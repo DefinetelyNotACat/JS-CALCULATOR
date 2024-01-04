@@ -3,23 +3,24 @@
 // let sum = String(a) + String(b)
 // let intsum = parseInt(sum)
 // console.log(intsum)
-let num = -1;
+let num = [];
 
 
 function getnumber(numid) 
 {
    
-     if(num===-1)
+     if(num.length===0)
      {
-          num = numid;
-          console.log(num)
+          num[0] = numid;
+          console.log(num[0])
      }
      
      else
      {
-          let sum = String(num) + String(numid)
-          console.log(sum + "pluhh")
-          console.log("Pluhh")
+          num.push(numid);
+          for(let i = 0; i < num.length; i++)
+               console.log(num[i]);
+          console.log(num.join(' '));
      }
 
 
