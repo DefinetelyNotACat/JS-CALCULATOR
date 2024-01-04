@@ -1,0 +1,43 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: purple;
+}
+
+.fullcontainer{
+    width: 100%;
+    height: 100%;
+
+}
+.display{
+    width: 60%;
+    height: 20%;
+    background-color: blue;
+    margin: auto;
+}
+.calculator{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    width: 59%;
+    height: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.num{
+    align-self: center;
+    justify-self: center;
+    font-size: 30px;
+    padding: 15px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+*
+{
+    outline-style: dashed;
+}
